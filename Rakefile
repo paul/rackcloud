@@ -10,6 +10,10 @@ begin
     gem.homepage = "http://github.com/paul/rackcloud"
     gem.authors = ["Paul Sadauskas"]
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+
+    gem.dependency "datapathy"
+    gem.dependency "resourceful"
+
   end
 
 rescue LoadError
